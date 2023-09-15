@@ -23,13 +23,22 @@ body {
 .title {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   align-self: center;
   text-align: center;
-  width: 50vw;
+  width: 90vw;
+  height: 60vh;
 }
 .title .devCourse {
   text-align: center;
   align-self: center;
+}
+.title h1 {
+  font-size: 600%;
+  font-weight: bold;
+}
+.title h2 {
+  font-size: 300%;
 }
 
 .info {
