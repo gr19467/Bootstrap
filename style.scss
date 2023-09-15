@@ -19,6 +19,7 @@ body{
 .mainArea{
     display: flex;
     flex-direction: column;
+    align-content: center;
 
     width: 100%;
     height: 90vw;
@@ -31,10 +32,23 @@ body{
 .title{
     display: flex;
     flex-direction: column;
+    align-self: center;
+    text-align: center;
+
+    width: 50vw;
+
+    .devCourse{
+        text-align: center;
+        align-self: center;
+    }
 }
 
 .info{
     display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+
+    width: 60%;
 
     img{
         width: 20px;
@@ -54,4 +68,7 @@ body{
 
     display: flex;
     justify-content: space-evenly;
+    align-content: center;
+
+    color: $navy;
 }
