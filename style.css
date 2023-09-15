@@ -119,4 +119,6 @@ body {
 }
 .nav h1 {
   font-size: 150%;
+  width: -moz-fit-content;
+  width: fit-content;
 }/*# sourceMappingURL=style.css.map */
