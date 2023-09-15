@@ -110,4 +110,6 @@ body {
   align-content: center;
   align-self: flex-end;
   color: #0B182B;
+  position: absolute;
+  bottom: 0;
 }/*# sourceMappingURL=style.css.map */
